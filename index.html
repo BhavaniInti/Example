@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            width: 250px;
+            height: 250px;
+            background-color: chartreuse;
+            position: relative;
+            top: 100px;
+            
+            z-index: 1;
+            
+           
+           
+        }
+        .b{
+            width: 250px;
+            height: 250px;
+            background-color:aquamarine;
+            position: relative;
+            margin-left: 50px;
+            top:40px;
+          
+        }
+        .c{
+            width: 250px;
+            height: 250px;
+            background-color:coral;
+            position: relative;
+            margin-left: 70px;
+            top: 10px;
+            z-index: -2;
+        }
+        .d{
+            width: 250px;
+            height: 250px;
+            background-color:darkgreen;
+            position: relative;
+            top: 10px;
+            margin-left: 90px;
+        }
+    </style>
+</head>
+<body>
+    <b>The z-index property specifies the stack order of an element
+        An element with greater stack order is always in front of an element with a lower stack order.
+         z-index only works on positioned elements positions andflex items </b>
+    <div class="a">
+        <h1>Z-Index(Postive)</h1>
+    </div>
+    <div class="b"></div>
+    <div class="c">
+        <h1>Z-Index(Negative)</h1>
+    </div>
+    <div class="d"></div>
+
+</body>
+</html>
